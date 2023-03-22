@@ -1,184 +1,268 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Document</title>
+    <title>Mi portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="left_Side">
-            <div class="profileText">
-                <div class="imgBx">
-                    <img src="img.jpg" alt="">
-                </div>
-                <h2>Ignacio A. Rumbo<br><span>Front-End Developer</span></h2>
+<!-- MENU HEADER -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Ignacio</a>
             </div>
-            <div class="contactInfo">
-                <h3 class="title">Contact Info</h3>
+            <nav>
                 <ul>
-                    <li>
-                        <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
-                        <span class="text">+54 02317-406018</span>
-                    </li>
-                    <li>
-                        <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
-                        <span class="text">ignacio@hotmail.com</span>
-                    </li>
-                    <li>
-                        <span class="icon"><i class="fa fa-globe" aria-hidden="true"></i></span>
-                        <span class="text">www.myweb.com</span>
-                    </li>
-                    <li>
-                        <span class="icon"><i class="fa fa-linkedin" aria-hidden="true"></i></span>
-                        <span class="text">www.likedin.com/ignacio</span>
-                    </li>
-                    <li>
-                        <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
-                        <span class="text">9 de Julio, Bs As, Arg.</span>
-                    </li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#curriculum">Cv</a></li>
+                    <li><a href="#portfolio">Porfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
+            </nav>
+            <div class="nav-responsive">
+                <i class="fa-solid fa-bars"></i>
             </div>
-            <div class="contactInfo education">
-                <h3 class="title">Educacion</h3>
-                <ul>
-                    <li>
-                        <h5>2010-2015</h5>
-                        <h4>Tec. Ciencias de la computacion.</h4>
-                        <h4>University name</h4>
-                    </li>
-                    <li>
-                        <h5>2007-2010</h5>
-                        <h4>Bachiller. Ciencias de la computacion.</h4>
-                        <h4>University name</h4>
-                    </li>
-                    <li>
-                        <h5>1997-2007</h5>
-                        <h4>Tec. Matriculacion.</h4>
-                        <h4>University name</h4>
-                    </li>
-                </ul>
-            </div>
-            <div class="contactInfo language">
-                <h3 class="title">Lenguas</h3>
-                <ul>
-                    <li>
-                        <span class="text">Español</span>
-                        <span class="percent">
-                            <div style="Width: 90%;"></div>
-                        </span>
-                    </li>
-                    <li>
-                        <span class="text">Ingles</span>
-                        <span class="percent">
-                            <div style="Width: 65%;"></div>
-                        </span>
-                    </li>
-                    <li>
-                        <span class="text">Portugues</span>
-                        <span class="percent">
-                            <div style="Width: 40%;"></div>
-                        </span>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="right_Side">
-            <div class="about">
-                <h2 class="title2">Perfil</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Pellentesque euismod lobortis porttitor. Ut consequat facilisis odio sed interdum.
-                Morbi sed mi aliquet odio finibus interdum quis ac dolor.
-                Etiam varius luctus malesuada. Praesent nec diam turpis. <br><br>Vestibulum nec justo orci.
-                Vivamus sed augue in felis scelerisque cursus vel sed dolor.
-                Sed vestibulum porttitor felis quis rhoncus. Sed arcu erat, rutrum sit amet ante tincidunt, mollis scelerisque felis. 
-                Sed aliquam mauris id lectus tristique interdum.</p>
-            </div>
-            <div class="about">
-                <h2 class="title2">experience</h2>
-                <div class="box">
-                    <div class="year_company">
-                        <h5>2018 - presente</h5>
-                        <h5>company</h5>
-                    </div>
-                    <div class="text">
-                        <h4>senior Front end Developer</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet fringilla tortor.
-                        Fusce non.</p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="year_company">
-                        <h5>2016 - 2018</h5>
-                        <h5>company</h5>
-                    </div>
-                    <div class="text">
-                        <h4>Mockup designer</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet fringilla tortor.
-                        Fusce non.</p>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="year_company">
-                        <h5>2013 - 2016</h5>
-                        <h5>company</h5>
-                    </div>
-                    <div class="text">
-                        <h4>junior front end developer</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet fringilla tortor.
-                        Fusce non.</p>
-                    </div>
-                </div>
-            </div>
-             <div class="about skills">
-                <h2 class="title2">habilidades profesionales</h2>
-            <div class="box">
-                <h4>Html</h4>
-                <div class="percent">
-                    <div style="width:90%"></div>
-                </div>
-            </div>
-            <div class="box">
-                <h4>Css</h4>
-                <div class="percent">
-                    <div style="width:75%"></div>
-                </div>
-            </div>
-            <div class="box">
-                <h4>Javascript</h4>
-                <div class="percent">
-                    <div style="width:50%"></div>
-                </div>
-            </div>
-            <div class="box">
-                <h4>Illustrator</h4>
-                <div class="percent">
-                    <div style="width:75%"></div>
-                </div>
-            </div>
-            <div class="box">
-                <h4>Figma</h4>
-                <div class="percent">
-                    <div style="width:70%"></div>
-                </div>
-            </div>
-        </div>
-            <div class="about interest">
-                <h2 class="title2">Intereses</h2>
-                <ul>
-                    <li><i class="fa fa-gamepad" aria-hidden="true"></i> Gaming</li>
-                    <li><i class="fa fa-headphones" aria-hidden="true"></i> Dj</li>
-                    <li><i class="fa fa-cutlery" aria-hidden="true"></i> Cooking</li>
-                    <li><i class="fa fa-book" aria-hidden="true"></i> Books</li> 
-                </ul>
-            </div>
-        </div>
+        </header>
     </div>
+<!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenidoBanner">
+            <div class="contenedor-img">
+                <img src="./img/me.jpg" alt="">
+            </div>
+            <h1>Ignacio A. Rumbo</h1>
+            <h2>Front End Dev - Pc Maintenance</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-skype"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-solid fa-rss"></i></a>
+            </div>
+        </div>
+    </section>
+<!-- SECCION ABOUTmE -->
+    <section id="sobreMi" class="sobreMi">
+        <div class="contenidoSeccion">
+            <h2>About me</h2>
+            <p><span>Hola, soy Ignacio Rumbo.</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Blanditiis tempore magnam provident illo, voluptatibus aut expedita quisquam ratione doloremque
+                recusandae error asperiores veritatis ut repellendus debitis repellat incidunt mollitia
+                ducimus.</p>
+                <div class="fila">
+                    <!-- my data -->
+                    <div class="col">
+                        <h3>Personal Data</h3>
+                            <ul>
+                                <li>
+                                    <strong>Birthday</strong>
+                                    20-11-1985
+                                </li>
+                                <li>
+                                    <strong>Phone</strong>
+                                    402013
+                                </li>
+                                <li>
+                                    <strong>E-mail</strong>
+                                    contactme@mail.com
+                                </li>
+                                <li>
+                                    <strong>Website</strong>
+                                    www.mywebsite.com
+                                </li>  
+                                <li>
+                                    <strong>Street</strong>
+                                    123 Salta, Buenos Aires, Argentina
+                                </li>
+                                <li>
+                                    <strong>Position</strong>
+                                    Freelance
+                                </li>
+                            </ul>        
+                    </div>
+                    <!-- interests -->
+                    <div class="col">
+                        <h3>Interest</h3>
+                        <div class="contenedorIntereses">
+                            <div class="intereses">
+                                <i class="fa-solid fa-gamepad"></i>
+                                <span>Gaming</span>
+                            </div>
+                            <div class="intereses">
+                                <i class="fa-solid fa-skull"></i>
+                                <span>Q3 player</span>
+                            </div>
+                            <div class="intereses">
+                                <i class="fa-solid fa-music"></i>
+                                <span>Music</span>
+                            </div>
+                            <div class="intereses">
+                                <i class="fa-brands fa-linux"></i>
+                                <span>Linux Os</span>
+                            </div>
+                            <div class="intereses">
+                                <i class="fa-solid fa-mountain-sun"></i>
+                                <span>Climb</span>
+                            </div>
+                            <div class="intereses">
+                                <i class="fa-solid fa-book"></i>
+                                <span>Books</span>
+                            </div>
+                            <div class="intereses">
+                                <i class="fa-solid fa-umbrella-beach"></i>
+                                <span>Beach</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button>Descargar CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </button>
+        </div>
+    </section>
+    <section id="skills" class="skills">
+        <div class="contenidoSeccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <div class="col">
+                    <h3>Technical</h3>
+                    <div class="skill">
+                        <span>JAVASCRIPT</span>
+                        <div class="barraSkills">
+                            <div class="progreso">
+                                <span>46%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PHP</span>
+                        <div class="barraSkills">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>JAVA</span>
+                        <div class="barraSkills">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barraSkills">
+                            <div class="progreso">
+                                <span>93%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <h3>Professional</h3>
+                    <div class="skill">
+                        <span>Team Work</span>
+                        <div class="barraSkills">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Comunication</span>
+                        <div class="barraSkills">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedication</span>
+                        <div class="barraSkills">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Responsability</span>
+                        <div class="barraSkills">
+                            <div class="progreso">
+                                <span>93%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="curriculum" class="curriculum">
+        <div class="contenidoSeccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educacion</h3>
+                    <div class="item izq">
+                        <h4>Arte y Multimeda</h4>
+                        <span id="casa">Escuela Media n°207</span><span id="fecha">2010 - 2014</span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod consequuntur mollitia nobis doloribus. Ducimus, alias dolor iusto veniam deserunt tenetur, aliquam quo sapiente officiis vel non, assumenda dolore quas perspiciatis!</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Arte y Multimeda</h4>
+                        <span id="casa">Escuela Media n°207</span><span id="fecha">2010 - 2014</span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi et aperiam, maiores voluptates praesentium sunt quos, quaerat, laudantium ducimus quas officia. Mollitia qui quidem odit quisquam harum fugit consequatur optio!</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Arte y Multimeda</h4>
+                        <span id="casa">Escuela Media n°207</span><span id="fecha">2010 - 2014</span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum itaque nam a voluptatibus dicta accusamus totam fugit, culpa, debitis quasi unde explicabo doloremque minus corrupti quis cumque neque! Expedita, reprehenderit.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col derecha">
+                    <h3>Experiencia de Trabajo</h3>
+                    <div class="item der">
+                        <h4>Front End Developer</h4>
+                        <span id="casa">Bussines Name</span><span id="fecha">2015 - 2018</span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum unde deleniti quas! Tenetur consequuntur totam exercitationem maxime qui itaque ea. Voluptatem adipisci recusandae sapiente quod inventore saepe quae nemo at?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Front End Developer</h4>
+                        <span id="casa">Bussines Name</span><span id="fecha">2015 - 2018</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, laborum? Corporis est fuga a, sapiente illum illo! Reprehenderit porro, molestias labore quae ut ullam sed excepturi quibusdam nostrum voluptates quaerat!</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Front End Developer</h4>
+                        <span id="casa">Bussines Name</span><span id="fecha">2015 - 2018</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat hic at, facilis vel minus nemo id corrupti fugiat, natus totam laudantium? Excepturi pariatur iste corrupti consequuntur atque, perferendis officiis veritatis.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
-
-
-
