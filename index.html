@@ -15,17 +15,17 @@
             <div class="logo">
                 <a href="#">Ignacio</a>
             </div>
-            <nav>
+            <nav id="nav">
                 <ul>
-                    <li><a href="#inicio">Home</a></li>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#curriculum">Cv</a></li>
-                    <li><a href="#portfolio">Porfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#inicio" onclick="seleccionar()">Home</a></li>
+                    <li><a href="#about" onclick="seleccionar()">About Me</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">Cv</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">Porfolio</a></li>
+                    <li><a href="#contact" onclick="seleccionar()">Contact</a></li>
                 </ul>
             </nav>
-            <div class="nav-responsive">
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
                 <i class="fa-solid fa-bars"></i>
             </div>
         </header>
@@ -326,5 +326,6 @@
             <a href="#"><i class="fa-solid fa-rss"></i></a>
         </div>
     </footer>
+<script src="script.js"></script>
 </body>
 </html>
